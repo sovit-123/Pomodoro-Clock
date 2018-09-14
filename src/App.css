@@ -1,0 +1,123 @@
+body {
+  background-color: rgb(55, 55, 55);
+}
+
+.header {
+  text-align: center;
+  color: #62ACB5;
+  background-color: rgb(55, 55, 55);
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  text-shadow: 3px 3px 3px black;
+  font-family: fantasy;
+}
+
+.break-session {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  text-align: center;
+  margin-left: 22%;
+  margin-top: 4%;
+  font-family: fantasy;
+  color: grey;
+}
+
+.break-inc,
+.break-dec {
+  font-size: 35px;
+  padding: 10px 10px 10px 10px;
+}
+
+.session-inc,
+.session-dec {
+  font-size: 35px;
+  padding: 10px 10px 10px 10px;
+}
+
+#break-label,
+#session-label > p {
+  font-size: 30px;
+}
+
+.fa-plus-square-o,
+.fa-minus-square-o {
+  color: white;
+}
+
+.fa-plus-square-o:hover,
+.fa-minus-square-o:hover {
+  color: #62ACB5;
+}
+
+#session-length,
+#break-length {
+  font-size: 30px;
+}
+
+.clock-box > div {
+  text-align: center;
+  margin-top: 4%;
+}
+
+.clock-box {
+  border-radius: 48%;
+  background-color: black;
+  width: 350px;
+  height: 280px;
+  font-family: fantasy;
+  font-size: 25px;
+  color: grey;
+  border: grey 5px solid;
+  border-radius: 100px;
+}
+
+#time-left {
+  margin-top: 30px;
+  font-size: 50px;
+  font-family: "Black Ops One", cursive;
+}
+
+.fa-pause-circle-o,
+.fa-play-circle-o,
+.fa-refresh {
+  font-size: 30px;
+  color: grey;
+}
+
+#start_stop {
+  background-color: black;
+  border-color: grey;
+  border-radius: 3px;
+}
+
+#start_stop:focus {
+  outline: none;
+}
+
+#start_stop:hover {
+  background-color: white;
+}
+
+.fa-refresh:hover {
+  color: #62ACB5;
+}
+
+.credit {
+  font-size: 14px;
+}
+
+.sound-credit {
+  color: white;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.copyright {
+  color: white;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.my-name {
+  color: yellow;
+}
